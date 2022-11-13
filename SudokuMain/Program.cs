@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Solvers;
+using Solvers.Sudoku;
+using SudokuMain.Interfaces;
+
+ISudoku sudoku = new ConsoleSudoku();
+sudoku.SelectItem(0, 0, SudokuItem.TWO);
+sudoku.DisplaySudoku();

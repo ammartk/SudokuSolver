@@ -20,14 +20,11 @@ namespace SudokuMain.Interfaces
     }
     public interface ISudoku
     {
-        public int[,] _grid { get {
-                _grid ??= new int[9, 9];
-                return _grid;
-            }
-            set { _grid = value; }
-        }
         public bool ExistsInRow(int row, SudokuItem item);
         public bool ExistsInColumn(int col, SudokuItem item);
         public bool ExistsInBox(int box, SudokuItem item);
+        public void SelectItem(int row, int col, SudokuItem item);
+        public bool HasWon();
+        public void DisplaySudoku();
     }
 }

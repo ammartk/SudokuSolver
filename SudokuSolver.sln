@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SudokuMain", "SudokuMain\SudokuMain.csproj", "{2CE742BC-188A-426B-A15E-66CAB09BA2C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A0B344F7-2CB8-4066-A00F-7D49DDF57419} = {A0B344F7-2CB8-4066-A00F-7D49DDF57419}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolverFactory", "SolverFactory\SolverFactory.csproj", "{F7ADA54C-0351-442D-A52B-BF5430F8FF8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solvers", "Solvers\Solvers.csproj", "{A0B344F7-2CB8-4066-A00F-7D49DDF57419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +20,10 @@ Global
 		{2CE742BC-188A-426B-A15E-66CAB09BA2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CE742BC-188A-426B-A15E-66CAB09BA2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CE742BC-188A-426B-A15E-66CAB09BA2C6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F7ADA54C-0351-442D-A52B-BF5430F8FF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7ADA54C-0351-442D-A52B-BF5430F8FF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7ADA54C-0351-442D-A52B-BF5430F8FF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7ADA54C-0351-442D-A52B-BF5430F8FF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B344F7-2CB8-4066-A00F-7D49DDF57419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B344F7-2CB8-4066-A00F-7D49DDF57419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B344F7-2CB8-4066-A00F-7D49DDF57419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B344F7-2CB8-4066-A00F-7D49DDF57419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

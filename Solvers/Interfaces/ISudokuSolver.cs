@@ -8,6 +8,7 @@ namespace SudokuMain.Interfaces
 {
     public interface ISudokuSolver
     {
+        public ISudoku Sudoku { get; set; }
         void Solve();
     }
 }
