@@ -24,6 +24,8 @@ namespace SudokuMain.Interfaces
         public bool ExistsInColumn(int col, SudokuItem item);
         public bool ExistsInBox(int box, SudokuItem item);
         public void SelectItem(int row, int col, SudokuItem item);
+        public int GetItemAt(int row, int col);
+        public int GetNumberOfDigits(int x, int y);
         public bool HasWon();
         public void DisplaySudoku();
     }
